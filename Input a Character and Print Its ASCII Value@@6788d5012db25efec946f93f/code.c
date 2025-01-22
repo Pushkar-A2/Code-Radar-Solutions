@@ -3,6 +3,6 @@
 int main() {
     char c;
     scanf("%c", &c);
-    printf("The ASII value of '%c'is %d\n",c,c);
+    printf("ASII Value: %d",(int)ch);
     return 0;
 }
