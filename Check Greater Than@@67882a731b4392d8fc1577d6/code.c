@@ -4,8 +4,8 @@
 int main() {
     int num1, num2;
     scanf("%d %d", &num1, &num2);
-    bool is greater = num1 > num2;
-    if (is greater){
+    bool isGreater = num1 > num2;
+    if (is Greater){
         printf("True\n");
     }
     else{
