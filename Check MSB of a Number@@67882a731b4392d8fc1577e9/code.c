@@ -3,7 +3,7 @@
 int main() {
     str a;
    scanf("%s",&a);
-if( a[0]=='1'){
+if(str(a)[0]=='1'){
     printf("Set\n");
 }
 else {
