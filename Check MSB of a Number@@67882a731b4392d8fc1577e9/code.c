@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int a;
-   scanf("%s",&a);
+    char a[33];
+   scanf("%32s",&a);
 if a[0]=='1'{
     printf("Set\n");
 }
