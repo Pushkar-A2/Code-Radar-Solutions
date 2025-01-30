@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    str a;
+    int a;
    scanf("%s",&a);
-if(str(a)[0]=='1'){
+if a[0]=='1'{
     printf("Set\n");
 }
 else {
