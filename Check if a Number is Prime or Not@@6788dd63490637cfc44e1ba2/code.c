@@ -13,7 +13,7 @@ if ( a <= 1){
     printf("Not Prime\n");
     return 0;
 }
-for ( i = 2; i*1 <= a; i++){
+for ( i = 2; i*i <= a; i++){
     if (a % i == 0){
         printf("Not Prime\n");
         return 0;
