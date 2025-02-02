@@ -3,7 +3,7 @@
 int main() {
     int costPrice, sellingPrice;
     scanf("%d %d",&costPrice, &sellingPrice);
-if(sellinPrice > costPrice){
+if(sellingPrice > costPrice){
     printf("Profit\n");
 }
 else if(sellinPrice < costPrice){
