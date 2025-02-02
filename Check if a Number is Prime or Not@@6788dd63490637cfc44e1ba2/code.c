@@ -19,6 +19,7 @@ for ( i = 2; i*1 <= a; i++){
         return 0;
     }
     printf("Prime\n");
+    return 0;
 }    
     
 }
