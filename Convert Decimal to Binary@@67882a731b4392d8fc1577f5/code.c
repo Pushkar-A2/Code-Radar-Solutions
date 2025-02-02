@@ -16,6 +16,6 @@ int main(){
     int num;
     scanf("%d",&num);
     printf("Enter a decimal number: ")
-    decimalToBinary(num);
+    
     return 0;
 }
