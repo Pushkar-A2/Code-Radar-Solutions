@@ -18,8 +18,7 @@ for ( i = 2; i*1 <= a; i++){
         printf("Not Prime\n");
         return 0;
     }
+}    
     printf("Prime\n");
     return 0;
-}    
-    
 }
