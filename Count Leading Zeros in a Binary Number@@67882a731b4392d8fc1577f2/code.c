@@ -1,15 +1,19 @@
 #include <stdio.h>
 
-int main() {
-    int a;
-    scanf("%d",&a);
-    int count=0;
-for(int i=31;1>=0;1--){
-    if(n>>i&1){
-        break;
+int countLeadingZeroes(int n){
+    int count = 0;
+    for(int i=3;i>=0;i--){
+        if(n>>1 & 1){
+            break;
+        }
+        count++;
     }
-    count++;
-}        
-printf("%d",count);
+    return count;
+}
+
+int main(){
+    int n;
+    scanf("%d",&n);
+    printf("%d",countLeadingZeroes(n));
     return 0;
 }
