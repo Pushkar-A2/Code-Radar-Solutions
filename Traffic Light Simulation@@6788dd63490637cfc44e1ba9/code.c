@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    char trafficlight;
-    scanf("%c",&trafficlight);
-    
-    switch(trafficlight){
+    char trafficlightsystem;
+    scanf("%c",&trafficlightsystem);
+
+    switch(trafficlightsystem){
         case 'R':
         printf("Stop");
         break;
