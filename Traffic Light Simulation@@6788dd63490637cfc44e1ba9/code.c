@@ -10,7 +10,7 @@ int main() {
         break;
 
         case 'G':
-        printf("Go")
+        printf("Go");
         break;
 
         case 'Y':
